@@ -1,0 +1,174 @@
+
+@font-face {
+	font-family: 'RSU_Regular';
+	src: url('fonts/RSU_Regular.eot');
+	src: local('☺'), url('fonts/RSU_Regular.woff') format('woff'), url('fonts/RSU_Regular.ttf') format('truetype'), url('fonts/RSU_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_CORDIA';
+	src: url('fonts/CORDIA.eot');
+	src: local('☺'), url('fonts/CORDIA.woff') format('woff'), url('fonts/CORDIA.ttf') format('truetype'), url('fonts/CORDIA.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neueregular';
+    src: url('font/thaisansneue-regular-webfont.eot');
+    src: url('font/thaisansneue-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/thaisansneue-regular-webfont.woff2') format('woff2'),
+         url('font/thaisansneue-regular-webfont.woff') format('woff'),
+         url('font/thaisansneue-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'thaisans_neueregular';
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(../images/subtle_dots.png);
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+.thai
+{
+    font-family: 'PSL_DIS';
+    font-weight: normal;
+    letter-spacing:1px;
+}
+.thai2
+{
+    font-family: 'Conv_CORDIA';
+    letter-spacing:0px;
+}
+.thai3
+{
+    font-family: 'RSU_Regular';
+    color:#333;
+	font-size:26px;
+	letter-spacing:0px;
+}
+
+.thai4
+{
+    font-family: 'RSU_Regular';
+    color:#333;
+	font-size:36px;
+	letter-spacing:0px;
+	color:#F00;
+	-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #fff;
+}
+
+.LogPanel
+{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+}
+.LogPanelHead
+{
+	 font-family: 'Conv_CORDIA';
+	/*background-color: #ff7417;*/
+	background-color:#f7893c;
+	-webkit-border-radius: 20px 20px 0 0;
+	-moz-border-radius: 20px 20px 0 0;
+	border-radius: 20px 20px 0 0;
+	color: #fff;
+	font-size: 28px;
+	padding: 15px 26px;
+}
+.LogPanelBottom
+{
+	background-color: #FFF;
+	-webkit-border-radius:  0 0 20px 20px;
+	-moz-border-radius: 0 0 20px 20px ;
+	border-radius: 0 0 20px 20px ;
+	color: #fff;
+	font-size: 20px;
+	padding: 5px; 
+}
+
+.tb11 {
+	font-family: 'Conv_CORDIA';
+	font-size:20px;
+	border:1px solid #444444;
+	width: 100%;
+	padding-top:2px;
+	padding-bottom:2px;
+	color:#aaaaa9;
+	background-color:#444444;
+	padding-left:5px;
+	padding-right:5px;
+	margin-right:4px;
+	margin-bottom:0px;
+	height:25px;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	
+}
+.space1
+{
+	width:10px;
+	max-width:10px;
+}
+.pageModuleTitle
+{
+	background:#fbfbfb;  
+	padding:10px; 
+	border:1px #c8c8c8 solid; 
+	border-radius:5px;
+	font-size:38px;
+}
+.pageModuleSpace
+{
+	height:15px;
+	width:100%;
+}
+.textBox
+{
+	padding:5px;
+	border:1px #999 solid;
+	border-radius:5px;
+	width:100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#333;
+	height:40px;
+}
+.Browser_IMG{border-radius:5px; border:1px #CCC solid; padding:8px; width:400px; cursor:pointer;}
+.setOpacIMG1{opacity:1.0;}
+.setOpacIMG2{opacity:0.4;}
+
+.titleHead{ display:block;}
+
+@media (min-width: 768px) 
+{
+	.resSlide2{ display:none;}
+}
+@media (max-width: 768px) 
+{
+	.pageModuleTitle{ font-size:21px;}
+	.titleHead{ display:none;}
+	.resSlide{ display:none;}
+	.resSlide2{ display:block;}
+	.Browser_IMG{width:100%;}
+}

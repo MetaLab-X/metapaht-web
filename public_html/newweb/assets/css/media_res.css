@@ -1,0 +1,1622 @@
+
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .season .season-bg {
+    background-image: url(../images/mission/Mission.png);
+    background-repeat: no-repeat;
+}
+      .season .bottom-bg {
+    background-position: center center;
+    background-size: 100%;
+    bottom: 1px;
+    width: 100%;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.season .bottom-bg {
+    background-image: url(../images/course/4.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+}
+      .season .season-bg {
+    background-position: center 30px;
+    background-size: 174%;
+    height: 81vw;
+    position: relative;
+    top: -46vw;
+    width: 100%;
+}
+      
+      .mission_box_text{
+          margin-top: -40px;
+      }
+      
+      .margin-grid-course{
+          margin-top: -50px;
+      }
+      
+      h1.green {
+    font-size: 31px;
+}
+
+br._d {
+    display: inline-block; } 
+
+p.description {
+    font-size: 21px;
+    line-height: 1em;
+}
+
+.riverwalk .riverwalk-bg {
+    bottom: 37px;
+    height: 73vw;
+    margin-top: 40px;
+}
+
+.riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 85vw;
+    height: 101vw;
+}
+
+.riverwalk .riverwalk-bg:before {
+    background-size: 100%;
+    height: 100px;
+    top: -18px;
+    background-image: url(../images/facilities/fac_bottom.png);
+}
+
+.classCoursePaddingTop {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+      
+     .overpagex{
+        overflow-x:hidden;
+} 
+.fac_text_box{
+      width: 100%;
+  }
+  
+  .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 567px;
+    height: 82vw;
+    width: 100%;
+}
+  }
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+       .overpagex{
+        overflow-x:hidden;
+
+}
+  }
+
+/* ----------- iPhone 5 and 5S ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+     .overpagex{
+        overflow-x:hidden;
+}
+  }
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+ .overpagex{
+        overflow-x:hidden;
+}
+  }
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) { 
+        .season .season-bg {
+    background-image: url(../images/mission/Mission.png);
+    background-repeat: no-repeat;
+}
+      .season .bottom-bg {
+    background-position: center center;
+    background-size: 100%;
+    bottom: 38px;
+    width: 100%;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.season .bottom-bg {
+    background-image: url(../images/course/4.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+}
+      .season .season-bg {
+    background-position: center 30px;
+    background-size: 174%;
+    height: 81vw;
+    position: relative;
+    top: -46vw;
+    width: 100%;
+}
+      
+      .mission_box_text{
+          margin-top: -40px;
+      }
+      
+      .margin-grid-course{
+          margin-top: -50px;
+      }
+      
+      h1.green {
+    font-size: 31px;
+}
+
+br._d {
+    display: inline-block; } 
+
+p.description {
+    font-size: 21px;
+    line-height: 1em;
+}
+
+.riverwalk .riverwalk-bg {
+    bottom: 37px;
+    height: 73vw;
+    margin-top: 40px;
+}
+
+.riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 85vw;
+    height: 101vw;
+}
+
+.riverwalk .riverwalk-bg:before {
+    background-size: 100%;
+    height: 100px;
+    top: -18px;
+    background-image: url(../images/facilities/fac_bottom.png);
+}
+
+.classCoursePaddingTop {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+      
+     .overpagex{
+        overflow-x:hidden;
+} 
+.fac_text_box{
+      width: 100%;
+  }
+  
+  .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 546px;
+    height: 88vw;
+    width: 100%;
+}
+  }
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+      .overpagex{
+        overflow-x:hidden;
+}
+  }
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) { 
+       
+ .season .season-bg {
+    background-image: url(../images/mission/Mission.png);
+    background-repeat: no-repeat;
+}
+      .season .bottom-bg {
+    background-position: center center;
+    background-size: 100%;
+    bottom: 62px;
+    width: 100%;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.season .bottom-bg {
+    background-image: url(../images/course/4.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+}
+      .season .season-bg {
+    background-position: center 30px;
+    background-size: 174%;
+    height: 81vw;
+    position: relative;
+    top: -46vw;
+    width: 100%;
+}
+      
+      .mission_box_text{
+          margin-top: -40px;
+      }
+      
+      .margin-grid-course{
+          margin-top: -50px;
+      }
+      
+      h1.green {
+    font-size: 31px;
+}
+
+br._d {
+    display: inline-block; } 
+
+p.description {
+    font-size: 21px;
+    line-height: 1em;
+}
+
+.riverwalk .riverwalk-bg {
+    bottom: 37px;
+    height: 73vw;
+    margin-top: 40px;
+}
+
+.riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 75vw;
+    height: 101vw;
+}
+
+.riverwalk .riverwalk-bg:before {
+    background-size: 100%;
+    height: 100px;
+    top: -18px;
+    background-image: url(../images/facilities/fac_bottom.png);
+}
+
+.classCoursePaddingTop {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+      
+     .overpagex{
+        overflow-x:hidden;
+} 
+.fac_text_box{
+      width: 100%;
+  }
+  
+  .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 546px;
+    height: 88vw;
+    width: 100%;
+}
+  }
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) {
+      .season .season-bg {
+    background-image: url(../images/mission/Mission.png);
+    background-repeat: no-repeat;
+}
+      .season .bottom-bg {
+    background-position: center center;
+    background-size: 100%;
+    bottom: 273px;
+    width: 100%;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.season .bottom-bg {
+    background-image: url(../images/course/4.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+}
+      .season .season-bg {
+    background-position: center 30px;
+    background-size: 174%;
+    height: 81vw;
+    position: relative;
+    top: -46vw;
+    width: 100%;
+}
+      
+      .mission_box_text{
+          margin-top: -40px;
+      }
+      
+      .margin-grid-course{
+          margin-top: -50px;
+      }
+      
+      h1.green {
+    font-size: 31px;
+}
+
+br._d {
+    display: inline-block; } 
+
+p.description {
+    font-size: 21px;
+    line-height: 1em;
+}
+
+.riverwalk .riverwalk-bg {
+    bottom: 37px;
+    height: 73vw;
+    margin-top: 40px;
+}
+
+.riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 75vw;
+    height: 101vw;
+}
+
+.riverwalk .riverwalk-bg:before {
+    background-size: 100%;
+    height: 100px;
+    top: -18px;
+    background-image: url(../images/facilities/fac_bottom.png);
+}
+
+.classCoursePaddingTop {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+      
+     .overpagex{
+        overflow-x:hidden;
+} 
+.fac_text_box{
+      width: 100%;
+  }
+  
+  .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 546px;
+    height: 88vw;
+    width: 100%;
+}
+  }
+
+/* ----------- Galaxy S3 ----------- */
+
+
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: portrait) {
+      
+.overpagex{
+        overflow-x:hidden;
+}
+  }
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 2) 
+  and (orientation: landscape) {
+      
+.overpagex{
+        overflow-x:hidden;
+}
+  }
+
+/* ----------- Galaxy S4 ----------- */
+/* Portrait */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+       .overpagex{
+        overflow-x:hidden;
+    }
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 320px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+       
+.overpagex{
+        overflow-x:hidden;
+} 
+  }
+
+/* ----------- Galaxy S5 ----------- */
+/* Portrait */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: portrait) {
+       
+.season .season-bg {
+    background-image: url(../images/mission/Mission.png);
+    background-repeat: no-repeat;
+}
+      .season .bottom-bg {
+    background-position: center center;
+    background-size: 100%;
+    bottom: 27px;
+    width: 100%;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.season .bottom-bg {
+    background-image: url(../images/course/4.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+}
+      .season .season-bg {
+    background-position: center 30px;
+    background-size: 174%;
+    height: 81vw;
+    position: relative;
+    top: -46vw;
+    width: 100%;
+}
+      
+      .mission_box_text{
+          margin-top: -40px;
+      }
+      
+      .margin-grid-course{
+          margin-top: -50px;
+      }
+      
+      h1.green {
+    font-size: 31px;
+}
+
+br._d {
+    display: inline-block; } 
+
+p.description {
+    font-size: 21px;
+    line-height: 1em;
+}
+
+.riverwalk .riverwalk-bg {
+    bottom: 37px;
+    height: 73vw;
+    margin-top: 40px;
+}
+
+.riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 75vw;
+    height: 101vw;
+}
+
+.riverwalk .riverwalk-bg:before {
+    background-size: 100%;
+    height: 100px;
+    top: -18px;
+    background-image: url(../images/facilities/fac_bottom.png);
+}
+
+.classCoursePaddingTop {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+      
+     .overpagex{
+        overflow-x:hidden;
+} 
+.fac_text_box{
+      width: 100%;
+  }
+  
+  .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 546px;
+    height: 88vw;
+    width: 100%;
+}
+}
+
+/* Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 3) 
+  and (orientation: landscape) {
+      .overpagex{
+        overflow-x:hidden;
+    }
+
+}
+/* ----------- iPad mini ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+      .overpagex{
+        overflow-x:hidden;
+    }
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .overpagex{
+        overflow-x:hidden;
+    }
+      
+
+}
+
+/* ----------- iPad 1 and 2 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      .margin_wave{
+          margin-top:-140px;
+      }
+      
+      .isan-bg .main-bg {
+  background-image: url(../images/part_about/about_center.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  z-index: 1; }
+      
+      h1.blue{
+           font-size:40px;
+      }
+      p.description{
+           font-size:14px;
+      }
+      br._d {
+    display: inline-block; }
+      
+      .downabout{
+          margin-top: 80px;
+          padding-right: 100px;
+      }
+      .season .pink-wave{
+          background-size:200%;
+          height: 473px;
+      }
+      .bottom_child {
+          margin-top: 289px;
+      }
+      .mission_box_text{
+        margin-left:100px;
+        margin-top: 0px;
+    }
+    p.description {
+  color: #333;
+  font-size: 12px;
+  font-weight: normal;
+  line-height: 18px; }
+    h1.white {
+  color: #FFF;
+  font-size: 30px;
+  text-transform: uppercase; }
+    .mission_box_detail{
+        margin-top: -10px;
+    }
+    .font_mission_detail2{
+       font-weight: bold;
+        font-size: 16px;
+    }
+    .season .bottom-bg{
+    background-position: center center;
+    bottom: 54px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+
+    left: 0;
+    position: absolute;
+     background-size: 100%;
+    overflow-y: hidden;
+    }
+    .isan-bg .inner-bg {
+    background-image: url(../images/part_about/imgFull_bg.png);
+    background-size: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 45px;
+    width: 100%;
+    z-index: -1;
+}
+
+.riverwalk1 .riverwalk-bg1:after {
+    content: "";
+    background-image: url(../images/facilities/underfac_bottom.png);
+    margin-top: 55px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    bottom: -25px;
+    height: 147px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+}
+        .riverwalk {
+    margin-top: -220px;
+    position: relative;
+    z-index: 100;
+}
+    .pull-left {
+    width: 50%;
+}
+        .riverwalk .riverwalk-bg:before {
+    content: "";
+    background-image: url(../images/school_full/course_2560x66.png);
+    margin-top: -210px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+    .riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 230px;
+    height: 800px;
+}
+
+    .riverwalk .riverwalk-bg .riverwalk-inner {
+    background-image: url(../images/school_full/Bgsc.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+
+    .riverwalk .riverwalk-bg:after {
+    content: "";
+    background-image: url(../images/school_full/course-bottom_2560x54.png);
+    margin-top: 55px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    height: 147px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-size: 180%;
+}
+    .overpagexy{
+        overflow-x:hidden;
+        overflow-y:hidden;
+    }
+    .mission_margin_top{
+        margin-top: -35px;
+    }
+    
+    .video_margin_top{
+        margin-top: 50px;
+    }
+	
+	/***************** Course Riverwalk1*************************************/
+	 .riverwalk1 {
+    margin-top: -45px;
+    position: relative;
+    z-index: 100;
+	background-color:#ffffff;
+}
+	.riverwalk1 .riverwalk-bg1 {
+    height: 405px;
+    margin-top: 0px;}
+	 .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 325px;
+    height: 490px; }
+	
+	/***************** Course Riverwalk1*************************************/
+        
+        /***************** MAP*************************************/
+        .direction .map img {
+    width: 400px;
+}
+.direction .map {
+    bottom: -65px;
+    right: 170px;
+}
+	/***************** MAP*************************************/
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+.margin_wave{
+          margin-top:-180px;
+      }
+      
+      .isan-bg .main-bg {
+  background-image: url(../images/part_about/about_center.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 111%;
+  left: 0;
+  position: absolute;
+  top: -95px;
+  width: 100%;
+  z-index: 1; }
+      
+      .wave-container .wave {
+    background-size: 100%;
+}
+      
+      h1.blue{
+           font-size:40px;
+      }
+      p.description{
+           font-size:14px;
+      }
+      br._d {
+    display: inline-block; }
+      
+      .downabout{
+          margin-top: 135px;
+          padding-right: 100px;
+      }
+      .season .pink-wave{
+          background-size:175%;
+          height:550px;
+      }
+      .bottom_child {
+          margin-top: 220px;
+      }
+      
+      .mission_box_text{
+        margin-left:100px;
+        margin-top: 0px;
+    }
+    p.description {
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px; }
+    h1.white {
+  color: #FFF;
+  font-size: 30px;
+  text-transform: uppercase; }
+    .mission_box_detail{
+        margin-top: -10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold; 
+        font-size: 16px;
+    }
+    .season .bottom-bg{
+    background-position: center center;
+    bottom: -24px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+    
+    left: 0;
+    position: absolute;
+   background-size: 100%;
+    overflow-y: hidden;
+    }
+    .isan-bg .inner-bg {
+    background-image: url(../images/part_about/imgFull_bg.png);
+    background-size: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 23px;
+    width: 100%;
+    z-index: -1;
+}
+        .riverwalk {
+    margin-top: -120px;
+    position: relative;
+    z-index: 100;
+}
+.riverwalk .riverwalk-bg {
+    height: 405px;
+    margin-top: 0px;
+}
+    .pull-left {
+    width: 50%;
+}
+        .riverwalk .riverwalk-bg:before {
+    content: "";
+    background-image: url(../images/school_full/course_2560x66.png);
+    margin-top: -210px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+    .riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 300px;
+    height: 800px;
+}
+
+    .riverwalk .riverwalk-bg .riverwalk-inner {
+    background-image: url(../images/school_full/Bgsc.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+
+    .riverwalk .riverwalk-bg:after {
+    content: "";
+    background-image: url(../images/school_full/course-bottom_2560x54.png);
+    margin-top: 55px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    height: 147px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-size: 180%;
+}
+    .overpagexy{
+        overflow-x: no-display;
+        overflow-y: no-display;
+    }
+    .mission_margin_top{
+        margin-top: -35px;
+    }
+	.video_margin_top{
+        margin-top: 50px;
+    }
+	/***************** Course Riverwalk1*************************************/
+	 .riverwalk1 {
+    margin-top: -45px;
+    position: relative;
+    z-index: 100;
+	background-color:#ffffff;
+}
+	.riverwalk1 .riverwalk-bg1 {
+    height: 405px;
+    margin-top: 0px;}
+        
+	 .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 350px;
+    height: 490px; }
+	
+	/***************** Course Riverwalk1*************************************/
+        
+         /***************** MAP*************************************/
+        .direction .map img {
+    width: 480px;
+}
+.direction .map {
+    bottom: -65px;
+    right: 190px;
+}
+	/***************** MAP*************************************/
+}
+
+/* ----------- iPad Pro ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+     .margin_wave{
+          margin-top:-180px;
+      }
+      
+      .isan-bg .main-bg {
+  background-image: url(../images/part_about/about_center.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 111%;
+  left: 0;
+  position: absolute;
+  top: -95px;
+  width: 100%;
+  z-index: 1; }
+      
+      .wave-container .wave {
+    background-size: 100%;
+}
+      
+      h1.blue{
+           font-size:40px;
+      }
+      p.description{
+           font-size:14px;
+      }
+      br._d {
+    display: inline-block; }
+      
+      .downabout{
+          margin-top: 135px;
+          padding-right: 100px;
+      }
+      .season .pink-wave{
+          background-size:175%;
+          height:550px;
+          
+      }
+      
+      .bottom_child {
+          margin-top: 250px;
+      }
+      .mission_box_text{
+        margin-left:100px;
+        margin-top: 0px;
+    }
+    p.description {
+  color: #333;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 20px; }
+    h1.white {
+  color: #FFF;
+  font-size: 30px;
+  text-transform: uppercase; }
+    .mission_box_detail{
+        margin-top: -10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold; 
+        font-size: 16px;
+    }
+    .season .bottom-bg{
+    background-position: center center;
+    bottom: -33px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+    
+    left: 0;
+    position: absolute;
+    background-size: 100%;
+    overflow-y: hidden;
+    }
+    .isan-bg .inner-bg {
+    background-image: url(../images/part_about/imgFull_bg.png);
+    background-size: 100%;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 23px;
+    width: 100%;
+    z-index: -1;
+}
+        .riverwalk {
+    margin-top: -120px;
+    position: relative;
+    z-index: 100;
+}
+.riverwalk .riverwalk-bg {
+    height: 405px;
+    margin-top: 0px;
+}
+    .pull-left {
+    width: 50%;
+}
+        .riverwalk .riverwalk-bg:before {
+    content: "";
+    background-image: url(../images/school_full/course_2560x66.png);
+    margin-top: -210px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    
+}
+
+    .riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 260px;
+    height: 800px;
+}
+
+.riverwalk1 .riverwalk-bg1:before {
+    
+    content: "";
+    background-image: url(../images/facilities/fac_bottom.png);
+    margin-top: -272px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 600px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-size: 100%;
+}
+
+    .riverwalk .riverwalk-bg .riverwalk-inner {
+    background-image: url(../images/school_full/Bgsc.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    height: 400px;
+}
+
+    .riverwalk .riverwalk-bg:after {
+    content: "";
+    background-image: url(../images/school_full/course-bottom_2560x54.png);
+    margin-top: 55px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    bottom: 0px;
+    height: 147px;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    background-size: 180%;
+}
+    .overpagexy{
+        overflow-x: no-display;
+        overflow-y: no-display;
+    }
+    .mission_margin_top{
+        margin-top: -35px;
+    }
+	.video_margin_top{
+        margin-top: 50px;
+    }
+	/***************** Course Riverwalk1*************************************/
+	 .riverwalk1 {
+    margin-top: -45px;
+    position: relative;
+    z-index: 100;
+	background-color:#ffffff;
+}
+	.riverwalk1 .riverwalk-bg1 {
+    height: 405px;
+    margin-top: 0px;}
+	 .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 374px;
+    height: 516px; }
+	
+	/***************** Course Riverwalk1*************************************/
+        
+        /***************** MAP*************************************/
+        .direction .map img {
+    width: 480px;
+}
+.direction .map {
+    bottom: -65px;
+    right: 190px;
+}
+	/***************** MAP*************************************/
+}
+
+
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 1024px) 
+  and (max-device-width: 1366px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 1) {
+      
+.bottom_child {
+          margin-top: 223px;
+      }
+      
+      .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 330px;
+    height: 800px;
+}
+
+      .overpagex{
+        overflow-x:hidden;
+    }
+      
+.season .bottom-bg {
+    background-position: center center;
+    bottom: -40px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+    background-size: 100%;
+}
+}
+
+/* ----------- iPad 3 and 4 ----------- */
+/* Portrait */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+      .overpagex{
+        overflow-x:hidden;
+    }
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: landscape) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+.overpagex{
+        overflow-x:hidden;
+    }
+      
+}
+
+
+/* ----------- Galaxy Tab 10.1 ----------- */
+/* Portrait */
+@media 
+  (max-device-width: 800px) 
+  and (orientation: portrait) { 
+
+     
+}
+
+/* Landscape */
+@media 
+  (max-device-width: 1280px) 
+  and (orientation: landscape) { 
+
+     
+      
+}
+
+
+/* ---------------------------DESKTOP------------------------------------ */
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+    .margin_wave{
+          margin-top:-50px;
+      }
+      .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+  /*  .season .bottom-bg{
+    background-position: center center;
+    bottom: -9px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+    background-size: 100%;
+    } */
+ .bottom_child {
+          margin-top: 170px;
+      }
+      .fac_text_box{
+      width: 70%;
+  }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+      .margin_wave{
+          margin-top:-50px;
+      }
+      .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+   /* .season .bottom-bg{
+    background-position: center center;
+    bottom: -9px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+    background-size: 100%;
+    } */
+     .bottom_child {
+          margin-top: 170px;
+      }
+}
+
+
+
+
+/* ----------- Non-Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1680px) 
+  and (max-device-width: 1920px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+      
+     .margin_wave{
+          margin-top:-50px;
+      }
+      .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+    .season .bottom-bg{
+    background-position: center center;
+    bottom: -13px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+    background-size: 100%;
+    }
+    .bottom_child {
+          margin-top: 170px;
+      }
+      .fac_text_box{
+      width: 70%;
+  }
+}
+
+/* ----------- Retina Screens ----------- */
+@media screen 
+  and (min-device-width: 1680px) 
+  and (max-device-width: 1920px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+ 
+     .margin_wave{
+          margin-top:-50px;
+      }
+      .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+    .fac_text_box{
+      width: 70%;
+  }
+}
+
+
+
+@media screen and (min-width: 1100px) and (max-width: 2000px) {
+  .margin_wave{
+          margin-top:-50px;
+      }
+    .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+       font-weight: bold; 
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+    .fac_text_box{
+      width: 70%;
+  }
+}
+@media screen and (min-width: 1280px){
+  .margin_wave{
+          margin-top:-50px;
+      }
+    .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+       font-weight: bold;
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+    .fac_text_box{
+      width: 70%;
+  }
+}
+
+@media screen and (min-width: 1366px){
+  .margin_wave{
+          margin-top:-50px;
+      }
+    .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+    .fac_text_box{
+      width: 70%;
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width:1679px){
+  .margin_wave{
+          margin-top:-50px;
+      }
+    .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold; 
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+    .fac_text_box{
+      width: 70%;
+  }
+}
+
+@media screen and (min-width: 1680px){
+  .margin_wave{
+          margin-top:-50px;
+      }
+    .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold;
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+    .fac_text_box{
+      width: 70%;
+  }
+}
+
+  @media screen and (min-width: 1920px) {
+    .margin_wave{
+          margin-top:-50px;
+      }
+      .mission_box_text{
+        margin-left:100px;
+        margin-top: 10px;
+    }
+    .font_mission_detail2{
+        font-weight: bold; 
+        font-size: 24px;
+    }
+    .mission_margin_top{
+        margin-top: 35px;
+    }
+    .fac_text_box{
+      width: 70%;
+  }
+  }
+  
+  
+  @media screen and (-webkit-min-device-pixel-ratio: 1) and (max-device-width: 1720px) and (min-device-width: 1680px)
+{
+.season .bottom-bg {
+    background-position: center center;
+    bottom: -34px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+    background-size: 100%;
+}}
+
+
+@media screen and (-webkit-min-device-pixel-ratio: 1) and (max-device-width: 1300px) and (min-device-width: 1279px)
+{
+.season .bottom-bg {
+    background-position: center center;
+    bottom: -47px;
+    background-image: url(../images/course/4_2560x214.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+    background-size: 100%;
+}}
+
+
+/* ----------- note 5 ----------- */
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 480px) 
+  and (max-device-width: 853px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+      .season .season-bg {
+    background-image: url(../images/mission/Mission.png);
+    background-repeat: no-repeat;
+}
+      .season .bottom-bg {
+    background-position: center center;
+    background-size: 100%;
+    bottom: 1px;
+    width: 100%;
+    line-height: 0px;
+    overflow: hidden;
+}
+
+.season .bottom-bg {
+    background-image: url(../images/course/4.png);
+    background-repeat: no-repeat;
+    left: 0;
+    position: absolute;
+}
+      .season .season-bg {
+    background-position: center 30px;
+    background-size: 174%;
+    height: 81vw;
+    position: relative;
+    top: -46vw;
+    width: 100%;
+}
+      
+      .mission_box_text{
+          margin-top: -40px;
+      }
+      
+      .margin-grid-course{
+          margin-top: -50px;
+      }
+      
+      h1.green {
+    font-size: 31px;
+}
+
+br._d {
+    display: inline-block; } 
+
+p.description {
+    font-size: 21px;
+    line-height: 1em;
+}
+
+.riverwalk .riverwalk-bg {
+    bottom: 37px;
+    height: 73vw;
+    margin-top: 40px;
+}
+
+.riverwalk .riverwalk-bg .riverwalk-inner {
+    bottom: 85vw;
+    height: 101vw;
+}
+
+.riverwalk .riverwalk-bg:before {
+    background-size: 100%;
+    height: 100px;
+    top: -18px;
+    background-image: url(../images/facilities/fac_bottom.png);
+}
+
+.classCoursePaddingTop {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+      
+     .overpagex{
+        overflow-x:hidden;
+} 
+.fac_text_box{
+      width: 100%;
+  }
+  
+  .riverwalk1 .riverwalk-bg1 .riverwalk-inner1 {
+    bottom: 567px;
+    height: 82vw;
+    width: 100%;
+}
+  }

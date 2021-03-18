@@ -1,0 +1,34 @@
+.paragraph2_textposition{text-align:center;}
+.paragraph2_fontDetail{font-size:24px; text-align:center;}
+.paragraph2Padding{padding-bottom:20px;}
+.paragraph2Title{font-size:25px;}
+@media (min-width:320px){
+	.paragraph2_textposition{text-align:center;}
+	.paragraph2_fontDetail{font-size:20px; text-align:center;}
+	.paragraph2Padding{padding-bottom:20px;}
+	.paragraph2Title{font-size:23px;}
+}
+@media (min-width:375px){}
+@media (min-width:414px){}
+@media (min-width:768px){
+	.paragraph2_textposition{text-align:left;}
+	.paragraph2_fontDetail{font-size:16px; text-align:left;padding-right: 54px;}
+	.paragraph2Padding{padding-bottom:0px;}
+	.paragraph2Title{font-size:23px;}
+}
+@media (min-width:800px){}
+@media (min-width:1024px){}
+@media (min-width:1152px){}
+@media (min-width:1240px){}
+@media (min-width:1280px){.paragraph2_textposition{text-align:left;}
+	.paragraph2_fontDetail{font-size:20px; text-align:left;padding-right: 54px;}
+	.paragraph2Padding{padding-bottom:0px;}
+	.paragraph2Title{font-size:26px;}}
+@media (min-width:1360px){.paragraph2_textposition{text-align:left;}
+	.paragraph2_fontDetail{font-size:23px; text-align:left;padding-right: 54px;}
+	.paragraph2Padding{padding-bottom:0px;}
+	.paragraph2Title{font-size:26px;}}
+@media (min-width:1400px){}
+@media (min-width:1680px){.paragraph2Title{font-size:32px;}}
+@media (min-width:1920px){}
+/**********CSS RESPONSIVE  ***************************/
