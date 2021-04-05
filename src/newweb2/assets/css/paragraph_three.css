@@ -1,0 +1,46 @@
+.paragraph3_classDisplay{display:none;}
+.paragraph31_classDisplay{display:block;}
+h1.greenT{
+	color: #57a000;
+  	text-transform: uppercase;
+	font-size:35px;
+	text-align:center;
+	font-weight:700;
+}
+.paragraph3_textMoto{font-size:24px;}
+@media (min-width:320px){
+	.paragraph3_classDisplay{display:none;}
+	.paragraph31_classDisplay{display:block; text-align:center; font-size:24px;}
+	h1.greenT{
+	color: #57a000;
+  	text-transform: uppercase;
+	font-weight:700;
+	font-size:35px;
+	text-align:center;
+}
+.paragraph3_textMoto{font-size:24px;}
+}
+@media (min-width:375px){}
+@media (min-width:414px){}
+@media (min-width:768px){
+	.paragraph3_classDisplay{display:block; text-align:left;}
+	.paragraph31_classDisplay{display:none;}
+	.paragraph3_textMoto{font-size:32px;}
+h1.greenT{
+	color: #57a000;
+  	text-transform: uppercase;
+	font-size:60px;
+	text-align:left;
+	font-weight:400;
+}
+}
+@media (min-width:800px){}
+@media (min-width:1024px){}
+@media (min-width:1152px){}
+@media (min-width:1240px){}
+@media (min-width:1280px){}
+@media (min-width:1360px){}
+@media (min-width:1400px){}
+@media (min-width:1680px){.paragraph3_textMoto{font-size:40px;}}
+@media (min-width:1920px){}
+/**********CSS RESPONSIVE  ***************************/

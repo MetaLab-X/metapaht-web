@@ -1,0 +1,103 @@
+
+@font-face {
+	font-family: 'RSU_Regular';
+	src: url('fonts/RSU_Regular.eot');
+	src: local('☺'), url('fonts/RSU_Regular.woff') format('woff'), url('fonts/RSU_Regular.ttf') format('truetype'), url('fonts/RSU_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Conv_CORDIA';
+	src: url('fonts/CORDIA.eot');
+	src: local('☺'), url('fonts/CORDIA.woff') format('woff'), url('fonts/CORDIA.ttf') format('truetype'), url('fonts/CORDIA.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'thaisans_neueregular';
+    src: url('font/thaisansneue-regular-webfont.eot');
+    src: url('font/thaisansneue-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('font/thaisansneue-regular-webfont.woff2') format('woff2'),
+         url('font/thaisansneue-regular-webfont.woff') format('woff'),
+         url('font/thaisansneue-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+	font-family: 'thaisans_neueregular';
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-color:#FFFFFF;
+}
+
+a:link {
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+a:active {
+	text-decoration: none;
+}
+
+.thai
+{
+    font-family: 'PSL_DIS';
+    font-weight: normal;
+    letter-spacing:1px;
+}
+.thai2
+{
+    font-family: 'Conv_CORDIA';
+    letter-spacing:0px;
+}
+.thai3
+{
+    font-family: 'RSU_Regular';
+    color:#333;
+	font-size:26px;
+	letter-spacing:0px;
+}
+
+.thai4
+{
+    font-family: 'RSU_Regular';
+    color:#333;
+	font-size:36px;
+	letter-spacing:0px;
+	color:#F00;
+	-webkit-text-stroke-width: 1px;
+-webkit-text-stroke-color: #fff;
+}
+
+.classButton{ 
+	font-family: 'thaisans_neueregular'; 
+	color:#FFF; font-size:15px;
+	width:100%; padding:35px; 
+	background-color:#36425c; 
+	cursor:pointer; 
+	border-bottom:1px #3c4965 solid; 
+}
+.classButton:hover{ font-family: 'thaisans_neueregular'; width:100%; padding:35px; background-color:#2b354a; cursor:pointer; }
+.classButtonActive
+{
+	font-family: 'thaisans_neueregular'; 
+	color:#FFF; font-size:15px;
+	width:100%; padding:35px; 
+	background-color:#2b354a; 
+	cursor:pointer; 
+	border-bottom:1px #3c4965 solid; 
+}
+
+.classMDTB1{ font-family:Tahoma, Geneva, sans-serif; background-color:#f9f9f9; cursor:pointer; font-size:13px;}
+.classMDTB1:hover{ background-color:#DBDBDB; cursor:pointer; font-weight:bold; font-size:13px;}
+
+.classMDTB2{  font-family:Tahoma, Geneva, sans-serif; font-size:13px; background-color:#FFFFFF; cursor:pointer;}
+.classMDTB2:hover{ background-color:#DBDBDB; cursor:pointer;  font-weight:bold; font-size:13px;}
