@@ -4,7 +4,6 @@ import { from } from 'rxjs';
 
 import { CalenderComponent } from './calender/calender.component';
 import { MainPageComponent } from './main-page/main-page.component';
-import { NewsComponent } from './news/news.component';
 const routes: Routes = [
   {
     path: '',
@@ -14,10 +13,6 @@ const routes: Routes = [
     path: 'calendar',
     component: CalenderComponent,
   },
-  {
-    path: 'news',
-    component: NewsComponent,
-  }
 ];
 
 @NgModule({

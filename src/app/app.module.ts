@@ -11,11 +11,8 @@ import { ParagraphTwoComponent } from './paragraph-two/paragraph-two.component';
 import { ParagraphThreeComponent } from './paragraph-three/paragraph-three.component';
 import { ParagraphFourComponent } from './paragraph-four/paragraph-four.component';
 import { ParagraphFiveComponent } from './paragraph-five/paragraph-five.component';
-import { FooterComponent } from './footer/footer.component';
 import { SlideComponent } from './slide/slide.component';
 import { MainPageComponent } from './main-page/main-page.component';
-import { NewsComponent } from './news/news.component';
-import { NewsdetailComponent } from './news/newsdetail/newsdetail.component';
 
 
 @NgModule({
@@ -27,12 +24,9 @@ import { NewsdetailComponent } from './news/newsdetail/newsdetail.component';
     ParagraphThreeComponent,
     ParagraphFourComponent,
     ParagraphFiveComponent,
-    FooterComponent,
     SlideComponent,
     routingComponents,
     MainPageComponent,
-    NewsComponent,
-    NewsdetailComponent
   ],
   imports: [
     BrowserModule,
