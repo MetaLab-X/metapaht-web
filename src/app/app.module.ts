@@ -5,7 +5,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HeaderComponent } from './header/header.component';
+import { TwitterComponent } from './twitter/twitter.component';
 import { ParagraphOneComponent } from './paragraph-one/paragraph-one.component';
 import { ParagraphTwoComponent } from './paragraph-two/paragraph-two.component';
 import { ParagraphThreeComponent } from './paragraph-three/paragraph-three.component';
@@ -18,7 +18,7 @@ import { MainPageComponent } from './main-page/main-page.component';
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent,
+    TwitterComponent,
     ParagraphOneComponent,
     ParagraphTwoComponent,
     ParagraphThreeComponent,
