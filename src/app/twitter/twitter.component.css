@@ -1,6 +1,6 @@
 #meta-twitter {
-  width: 50em;
-  height: 50em;
+  width: 0em;
+  height: 0em;
   margin-left:0em;
   margin-top:0em;
   border: 2;
@@ -31,7 +31,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */ 
 @media only screen and (min-width: 1200px) { 
     #meta-twitter { 
-        width: 50em; 
-        height: 50em; 
+        width: 500em; 
+        height:75em; 
     } 
 }
