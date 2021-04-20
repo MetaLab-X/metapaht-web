@@ -277,7 +277,7 @@ $(window).scroll(function() {
 var iScrollPos = 0;
 $(window).scroll(function() {
   var iCurScrollPos = $(this).scrollTop();
-  var riverWalk = iCurScrollPos / 5;
+  var riverWalk = iCurScrollPos / 8;
   $(".riverwalk-inner").css({transform: "translateY(" + riverWalk +"px)"});
   $(".riverwalk-inner1").css({transform: "translateY(" + riverWalk +"px)"});
   iScrollPos = iCurScrollPos;
