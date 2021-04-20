@@ -1,8 +1,4 @@
 #meta-twitter {
-  width: 0em;
-  height: 0em;
-  margin-left:0em;
-  margin-top:0em;
   border: 2;
   border-radius: 25px;
   background-position: left top;
@@ -13,16 +9,23 @@
 /* Extra small devices (phones, 600px and down) */ 
 @media only screen and (max-width: 600px) { 
   #meta-twitter { 
-      width: 35em; 
-      height: 35em; 
+      width: 350px; 
+      height: 500px; 
     } 
 } 
 /* Small devices (portrait tablets and large phones, 600px and up) */ 
 @media only screen and (min-width: 600px) { 
-
+  #meta-twitter { 
+    width: 500px; 
+    height:70px; 
+} 
 } 
 /* Medium devices (landscape tablets, 768px and up) */ 
 @media only screen and (min-width: 768px) { 
+  #meta-twitter { 
+    width: 35px; 
+    height: 35px; 
+  } 
 
 } /* Large devices (laptops/desktops, 992px and up) */ 
 @media only screen and (min-width: 992px) { 
@@ -31,7 +34,7 @@
 /* Extra large devices (large laptops and desktops, 1200px and up) */ 
 @media only screen and (min-width: 1200px) { 
     #meta-twitter { 
-        width: 500em; 
-        height:70em; 
+        width: 500px; 
+        height:70px; 
     } 
 }
