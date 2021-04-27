@@ -32,7 +32,7 @@ text component
 
 .text{
   display: var(--textDisplay, inline-flex);
-  font-size: var(--textFontSize, 1rem);  
+  font-size: var(--textFontSize, 1.8rem);  
 }
 
 /*
@@ -53,6 +53,7 @@ extensions
 
 .time__month{
   margin-left: var(--timelineMounthMarginLeft, .25em);
+  font-size: 20px;
 }
 
 /*
@@ -63,7 +64,7 @@ skin
   padding: var(--timePadding, .25rem 1.25rem .25rem);
   background-color: var(--timeBackgroundColor, #f0f0f0);
 
-  font-size: var(--timeFontSize, .75rem);
+  font-size: var(--timeFontSize, 1rem);
   font-weight: var(--timeFontWeight, 700);
   text-transform: var(--timeTextTransform, uppercase);
   color: var(--timeColor, currentColor);
@@ -102,7 +103,7 @@ extensions
 
 .card__title{
   --rTitleMarginTop: var(--cardTitleMarginTop, 1rem);
-  font-size: var(--cardTitleFontSize, 1.25rem);
+  font-size: var(--cardTitleFontSize, 2rem);
 }
 
 /*
@@ -150,6 +151,7 @@ SKIN
   --timeColor: var(--uiTimelineSecondaryColor);
   --timeBackgroundColor: var(--uiTimelineMainColor);
   --timeFontWeight: var(--timelineYearFontWeight, 400);
+  font-size: 20px;
 }
 
 .timeline__card{
@@ -209,6 +211,7 @@ p{
   margin-top: 0;
   margin-bottom: 1rem;
   line-height: 1.5;
+  font-size: 20px;
 }
 
 p:last-child{
@@ -216,8 +219,14 @@ p:last-child{
 }
 
 .page{
-  max-width: 47rem;
+  max-width: 150rem;
   padding: 5rem 2rem 3rem;
   margin-left: auto;
   margin-right: auto;
+}
+.wrapper{
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+  height: calc(100vh - 14em);
+  scroll-snap-align:start ;
 }

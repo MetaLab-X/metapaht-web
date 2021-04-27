@@ -1,5 +1,5 @@
 #meta-calendar {
-
+    
     border: 2;border-radius: 25px;
     background-position: left top;
     background-repeat: repeat;
@@ -14,12 +14,22 @@
         width: 350px; 
         height: 500px; 
     } 
+    #meta-timeline { 
+        width: 340px; 
+        height: 600px; 
+        margin-top: 30px;
+    }
 } 
 /* Small devices (portrait tablets and large phones, 600px and up) */ 
 @media only screen and (min-width: 600px) { 
     #meta-calendar { 
         width: 350px; 
         height: 550px; 
+    } 
+    #meta-timeline { 
+        width: 350px; 
+        height: 550px; 
+        margin-top: 30px;
     } 
 } 
 /* Medium devices (landscape tablets, 768px and up) */ 
@@ -28,15 +38,38 @@
         width: 760px; 
         height:550px; 
     } 
+    #meta-timeline { 
+        width: 700px; 
+        height:500px; 
+        margin-top: 30px;
+    }
 
 } /* Large devices (laptops/desktops, 992px and up) */ 
 @media only screen and (min-width: 992px) { 
-
+    #meta-timeline { 
+        width: 1000px; 
+        height:600px; 
+        margin-top: 30px;
+        
+    }
+    #meta-calendar { 
+        width: 900px; 
+        height:550px; 
+    } 
 } 
 /* Extra large devices (large laptops and desktops, 1200px and up) */ 
 @media only screen and (min-width: 1200px) { 
     #meta-calendar { 
-        width: 600px; 
-        height:500px; 
+        width: 800px; 
+        height:700px; 
+        
+    } 
+    #meta-timeline { 
+        width: 700px; 
+        height:700px; 
+        margin-right: -100px;
+        margin-top: 50px;
+
+        
     } 
 }
