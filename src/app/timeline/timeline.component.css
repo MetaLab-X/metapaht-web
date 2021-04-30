@@ -142,8 +142,8 @@ SKIN
   --uiTimelineSecondaryColor: var(--timelineSecondaryColor, #fff);
 
   border-left: var(--timelineLineWidth, 3px) solid var(--timelineLineBackgroundColor, var(--uiTimelineMainColor));
-  padding-top: 1rem;
-  padding-bottom: 1.5rem;
+  padding-top: -1rem;
+  padding-bottom: -1.5rem;
 }
 
 .timeline__year{
@@ -220,6 +220,7 @@ p:last-child{
 
 .page{
   max-width: 150rem;
+  
   padding: 5rem 2rem 3rem;
   margin-left: auto;
   margin-right: auto;
@@ -227,6 +228,6 @@ p:last-child{
 .wrapper{
   overflow-y: scroll;
   scroll-snap-type: y mandatory;
-  height: calc(100vh - 14em);
+  height: calc(100vh - 25em);
   scroll-snap-align:start ;
 }
