@@ -8,8 +8,10 @@ import { Component, OnInit } from '@angular/core';
 export class CalenderComponent implements OnInit {
 
   constructor() { }
-
+  
   ngOnInit(): void {
   }
 
-}
+  }
+
+

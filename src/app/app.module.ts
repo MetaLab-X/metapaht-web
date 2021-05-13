@@ -13,6 +13,8 @@ import { ParagraphFourComponent } from './paragraph-four/paragraph-four.componen
 import { ParagraphFiveComponent } from './paragraph-five/paragraph-five.component';
 import { SlideComponent } from './slide/slide.component';
 import { MainPageComponent } from './main-page/main-page.component';
+import { TimelineComponent } from './timeline/timeline.component';
+import { DirectorProfileComponent } from './director-profile/director-profile.component';
 
 
 @NgModule({
@@ -27,6 +29,8 @@ import { MainPageComponent } from './main-page/main-page.component';
     SlideComponent,
     routingComponents,
     MainPageComponent,
+    TimelineComponent,
+    DirectorProfileComponent,
   ],
   imports: [
     BrowserModule,

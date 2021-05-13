@@ -1,41 +1,372 @@
-#meta-calendar {
 
-    border: 2;border-radius: 25px;
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px;
-    border: 15px solid #003399;
-}
+
 
 /* Extra small devices (phones, 600px and down) */ 
 @media only screen and (max-width: 600px) { 
-    #meta-calendar { 
-        width: 350px; 
-        height: 500px; 
+    .calendar-base {
+        
+        height: 500px;
+        margin-right:100px;
+        min-width: 200px;
+        max-width: 300px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        position: relative;
+        border-radius: 0px 0px 20px 20px;
+        color: black;
+        margin-top: 500px;
+        margin-left: 15px;
+        
+       
+      }
+      .calendar-left {
+        width: 300px;
+        height: 500px;
+        padding:20px 20px 20px 20px;
+        border-radius: 20px 20px 0px 0px;
+        background-color: #16244D;
+        margin-left: 1px;
+      margin-top: -600px;
+        color: white;
+      }
+      #meta-calendar { 
+        width: 256px; 
+        height:450px; 
+        
+        border-radius: 20px;
+       
     } 
+    .meta-timeline{
+        position: relative;
+        
+        height:100px; 
+        
+       
+        margin-bottom: -100px;
+    }
 } 
 /* Small devices (portrait tablets and large phones, 600px and up) */ 
 @media only screen and (min-width: 600px) { 
-    #meta-calendar { 
-        width: 350px; 
-        height: 550px; 
+    .calendar-base {
+       
+        height: 500px;
+        margin-right:100px;
+        min-width: 200px;
+        max-width: 300px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        position: relative;
+        border-radius: 0px 0px 20px 20px;
+        color: black;
+        margin-top: 500px;
+        margin-left: 15px;
+        
+       
+      }
+      .calendar-left {
+        width: 300px;
+        height: 500px;
+        padding:20px 20px 20px 20px;
+        border-radius: 20px 20px 0px 0px;
+        background-color: #16244D;
+        margin-left: 1px;
+      margin-top: -600px;
+        color: white;
+      }
+      #meta-calendar { 
+        width: 256px; 
+        height:450px; 
+        
+        border-radius: 20px;
+       
     } 
+    .meta-timeline{
+        position: relative;
+        
+        height:500px; 
+        
+       
+        margin-bottom: -100px;
+    }
 } 
 /* Medium devices (landscape tablets, 768px and up) */ 
 @media only screen and (min-width: 768px) { 
-    #meta-calendar { 
-        width: 760px; 
-        height:550px; 
+    .calendar-base {
+        
+        height: 500px;
+        margin-right:100px;
+        min-width: 700px;
+        max-width: 800px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        position: relative;
+        color: black;
+        margin-top: 100px;
+        
+       
+      }
+      .calendar-left {
+       margin-top: -435px;
+        height: 500px;
+        margin-right:100px;
+        min-width: 300px;
+        max-width: 400px;
+        width: 100%;
+        padding:20px 20px 20px 20px;
+        border-radius: 20px 0px 0px 20px;
+        background-color: #16244D;
+        
+       
+        color: white;
+        
+        float: left;
+
+        
+      }
+      #meta-calendar { 
+        width: 360px; 
+        height:450px; 
+        
+        border-radius: 20px;
+       
     } 
-
-} /* Large devices (laptops/desktops, 992px and up) */ 
+    .meta-timeline{
+        
+       
+        margin-top: 35px;
+        min-width: 200px;
+        max-width: 300px;
+        width: 100%;
+        float: right;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */ 
 @media only screen and (min-width: 992px) { 
+    .calendar-base {
+        
+        height: 500px;
+        margin-right:100px;
+        min-width: 800px;
+        max-width: 900px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        position: relative;
+        color: black;
+        margin-top: 100px;
+        
+       
+      }
+      .calendar-left {
+       
+        height: 500px;
+        margin-right:100px;
+        min-width: 300px;
+        max-width: 400px;
+        width: 100%;
+        padding:20px 20px 20px 20px;
+        border-radius: 20px 0px 0px 20px;
+        background-color: #16244D;
+        
+       margin-top: -438px;
+        color: white;
+        
+        float: left;
 
-} 
+        
+      }
+      #meta-calendar { 
+        width: 360px; 
+        height:450px; 
+        
+        border-radius: 20px;
+       
+    } 
+    .meta-timeline{
+        
+       
+        margin-top: -35px;
+        min-width: 300px;
+        max-width: 400px;
+        width: 100%;
+        float: right;
+    }
+
+}
 /* Extra large devices (large laptops and desktops, 1200px and up) */ 
 @media only screen and (min-width: 1200px) { 
-    #meta-calendar { 
-        width: 1200px; 
-        height:600px; 
+    .calendar-base {
+        
+        height: 700px;
+        margin-right:100px;
+        min-width: 1200px;
+        max-width: 1300px;
+        width: 100%;
+        border-radius: 20px;
+        background-color: white;
+        position: relative;
+        color: black;
+        margin-top: 100px;
+        
+       
+      }
+      .calendar-left {
+       
+        height: 700px;
+        margin-right:100px;
+        min-width: 600px;
+        max-width: 650px;
+        width: 100%;
+        padding:20px 20px 20px 20px;
+        border-radius: 20px 0px 0px 20px;
+        background-color: #16244D;
+        
+       margin-top: -130px;
+        color: white;
+        
+        float: left;
+
+        
+      }
+      #meta-calendar { 
+        width: 600px; 
+        height:650px; 
+        
+        border-radius: 20px;
+       
     } 
+    .meta-timeline{
+        margin-top: 40px;
+        margin-bottom: -10px;
+        height:100px; 
+        margin-right: 100px;
+        min-width: 300px;
+        max-width: 400px;
+        width: 100%;
+        float: right;
+    }
+
+
+
+
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */ 
+@media only screen and (min-width: 1800px) { 
+  .calendar-base {
+      
+      height: 700px;
+      margin-right:100px;
+      min-width: 1200px;
+      max-width: 1300px;
+      width: 100%;
+      border-radius: 20px;
+      background-color: white;
+      position: relative;
+      color: black;
+      margin-top: 100px;
+      
+     
+    }
+    .calendar-left {
+     
+      height: 700px;
+      margin-right:100px;
+      min-width: 600px;
+      max-width: 650px;
+      width: 100%;
+      padding:20px 20px 20px 20px;
+      border-radius: 20px 0px 0px 20px;
+      background-color: #16244D;
+      
+     margin-top: -130px;
+      color: white;
+      
+      float: left;
+
+      
+    }
+    #meta-calendar { 
+      width: 600px; 
+      height:650px; 
+      
+      border-radius: 20px;
+     
+  } 
+  .meta-timeline{
+      margin-top: 40px;
+      margin-bottom: -10px;
+      height:100px; 
+      margin-right: 100px;
+      min-width: 300px;
+      max-width: 400px;
+      width: 100%;
+      float: right;
+  }
+
+
+
+
+
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */ 
+@media only screen and (min-width: 2000px) { 
+  .calendar-base {
+      
+      height: 700px;
+      margin-right:100px;
+      min-width: 1200px;
+      max-width: 1300px;
+      width: 100%;
+      border-radius: 20px;
+      background-color: white;
+      position: relative;
+      color: black;
+      margin-top: 100px;
+      
+     
+    }
+    .calendar-left {
+     
+      height: 700px;
+      margin-right:100px;
+      min-width: 600px;
+      max-width: 650px;
+      width: 100%;
+      padding:20px 20px 20px 20px;
+      border-radius: 20px 0px 0px 20px;
+      background-color: #16244D;
+      
+     margin-top: -130px;
+      color: white;
+      
+      float: left;
+
+      
+    }
+    #meta-calendar { 
+      width: 600px; 
+      height:650px; 
+      
+      border-radius: 20px;
+     
+  } 
+  .meta-timeline{
+      margin-top: 40px;
+      margin-bottom: -10px;
+      height:100px; 
+      margin-right: 100px;
+      min-width: 300px;
+      max-width: 400px;
+      width: 100%;
+      float: right;
+  }
+
+
+
+
+
 }
