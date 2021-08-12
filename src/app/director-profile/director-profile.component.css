@@ -1,5 +1,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,200,300,800);
 @import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
+figure.snip0056 {
+  box-shadow: 25px 30px 10px 1px #442;
+}
   
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
