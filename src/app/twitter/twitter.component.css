@@ -7,6 +7,23 @@
   border: 2px solid #0000ff;
 }
 
+.news-event-section {
+  height: 800px;
+  background-image: url("src/assets/images/socials/metapaht-bg.jpg");
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 10em;
+  padding-bottom: 1em;
+  background-color: #0000ff;
+}
+
+.fb-page {
+  box-shadow: 5px 15px 20px 5px #555;
+}
+
 /* Extra small devices (phones, 600px and down) */ 
 @media only screen and (max-width: 600px) { 
   #meta-twitter { 
@@ -51,7 +68,7 @@
   }
 } 
 /* Extra large devices (large laptops and desktops, 1200px and up) */ 
-@media only screen and (min-width: 1200px) { 
+@media only screen and (min-width: 1200px) {
     #meta-twitter { 
         width: 500px; 
         height:500px; 
@@ -60,4 +77,10 @@
       margin-top: 10px;
       margin-bottom: 8em;
     }
+}
+
+@media only screen and (max-device-width: 1366px) {
+  .news-event-section {
+    background-attachment: scroll;
+  }
 }
