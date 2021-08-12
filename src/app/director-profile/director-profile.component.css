@@ -16,6 +16,7 @@ figure.snip0056 {
     width: 100%;
     background: #ffffff;
     color: #000000;
+    box-shadow: 10px 10px 10px 1px #442;
   }
   figure.snip0056 * {
     -webkit-box-sizing: border-box;
