@@ -1,0 +1,18 @@
+ .bg-video {
+     background-color: #F4B61B;
+     padding: 3em;
+     margin-top: -20em;
+     margin-bottom: 11em;
+     z-index: 99;
+ }
+
+.video {
+    width: 80%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .bg-video {
+        margin-bottom: 20em;;
+    }
+}

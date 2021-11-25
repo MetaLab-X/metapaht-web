@@ -7,9 +7,17 @@
      height:50em;  
      border-radius: 25px;
      background-position: left top;
-   background-repeat: repeat;
-   padding: 20px;
-   border: 2px solid #73AD21;
-   
-   }
+    background-repeat: repeat;
+    padding: 20px;
+    border: 2px solid #73AD21;
+}
+
+.wave-container {
+  z-index: -1;
+  margin-top: -27.5em;
+}
+
+.slide-container {
+  z-index: -5;
+}
  

@@ -15,6 +15,7 @@ import { SlideComponent } from './slide/slide.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { TimelineComponent } from './timeline/timeline.component';
 import { DirectorProfileComponent } from './director-profile/director-profile.component';
+import { VideosHeaderComponent } from './videos-header/videos-header.component';
 
 
 @NgModule({
@@ -31,6 +32,7 @@ import { DirectorProfileComponent } from './director-profile/director-profile.co
     MainPageComponent,
     TimelineComponent,
     DirectorProfileComponent,
+    VideosHeaderComponent,
   ],
   imports: [
     BrowserModule,
